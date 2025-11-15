@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Skill Exchange Platform</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Community Skill Exchange Platform</h1>
+        <p>Learn, Share, and Grow Together!!!</p>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="#join">Join</a>
+        <a href="#contact">Contact</a>
+        <a href="#login-modal" class="nav-btn">Login</a>
+        <a href="#signup-modal" class="nav-btn">Sign Up</a>
+    </nav>
+    <section class="hero">
+        <h1>Exchange Skills, Build Connections</h1>
+        <p>Empowering people to share their knowledge and learn from others in the community.</p>
+    </section>
+    <section id="about">
+        <div>
+            <h2>About our Platform</h2>
+            <p>The Community Skill Exchange Platform is a space where individuals can connect with others to
+                teach and learn various skills. Whether it's coding, public speaking, cooking, or any other skill -
+                everyone
+                has something valuable to offer!
+            </p>
+        </div>
+    </section>
+    <section id="features">
+        <h2 class="section-title">
+            Key Features
+        </h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Connect with People</h3>
+                <p>Find members who share similar interests and skills you want to learn or teach.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Teach & Learn</h3>
+                <p>Offer your skills or learn from others through workshops, 1-on-1 sessions, or online tutorials.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Community Chat</h3>
+                <p>Engage in meaningful conversations and collaborate on skill-based projects with other members.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join">
+        <div class="center">
+            <h2>Join our Community</h2>
+            <p>Start sharing your skills today and unlock endless learning opportunities!</p>
+            <button class="btn-primary" onclick="location.href='#signup-modal'">Get Started</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="center">
+            <h2>Contact Us</h2>
+            <p>Email : <a href="mailto:support@communityskillexchange.com">support@communityskillexchange.com</a></p>
+            <p>Phone : <a href="tel:+91 9384759481">+91 93847 59481</a></p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 Community Skill Exchange | Designed with ❤️ by Tamil</p>
+    </footer>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Login</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" required>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#signup-modal">Sign Up</a></p>
+        </div>
+    </div>
+
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Sign Up</h2>
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+                <label>Password</label>
+                <input type="password" placeholder="Create a password" required>
+                <button type="submit" class="btn-primary">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="#login-modal">Login</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
